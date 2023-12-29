@@ -1,0 +1,36 @@
+.item {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.item.active {
+    border: 3px solid #006400;
+}
+
+.button {
+    padding: 1rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.button:hover {
+    opacity: .8;
+}
+
+.mark {
+    margin-right: 1rem;
+    background-color: #0f4c81;
+}
+
+.delete {
+    background-color: #b22222;
+}
+
+.name {
+    font-size: 1.125rem;
+    font-weight: bold;
+}

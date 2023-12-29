@@ -1,0 +1,56 @@
+.form {
+    padding: 1.5rem 1.5rem 3rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 550px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.label {
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+
+}
+
+.input {
+    margin-left: .5rem;
+    padding: 1rem;
+    border: 1px solid grey;
+}
+
+.button {
+    padding: 1rem;
+    background-color: #006400;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button:disabled {
+    cursor: not-allowed;
+}
+
+.error {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: .5rem auto;
+    width: 100%;
+    text-align: center;
+    color: red;
+}
+
+.inner {
+    position: relative;
+}
